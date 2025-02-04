@@ -1,0 +1,10 @@
+prefix = "example-nest-terraform"
+cluster_name = "api-nest"
+retention_days = 30
+desired_size = 2
+max_size = 4
+min_size = 2
+vpc_cidr_block = "10.0.0.0/16"
+instance_type = "t3.micro"
+instance_name = "example-nest-terraform-instance"
+region        = "us-east-1"

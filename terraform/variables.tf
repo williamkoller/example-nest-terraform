@@ -1,0 +1,10 @@
+variable "prefix" {}
+variable "cluster_name" {}
+variable retention_days {}
+variable desired_size {}
+variable "max_size" {}
+variable "min_size" {}
+variable "vpc_cidr_block" {}
+variable "instance_type" {}
+variable "instance_name" {}
+variable "region" {}
