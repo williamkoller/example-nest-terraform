@@ -58,7 +58,7 @@ resource "aws_security_group" "new-sg" {
 }
 
 resource "aws_instance" "example_nest_terraform_instance" {
-  count = length(var.subnet_ids)
+  count = 1
   ami           = var.ami_id
   instance_type = var.instance_type
   subnet_id     = element(var.subnet_ids, count.index)
